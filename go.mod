@@ -1,4 +1,4 @@
-module github.com/user/repo
+module github.com/timotofcourse/timot-tech
 
 go 1.19
 
@@ -86,6 +86,7 @@ require (
 	github.com/hugomods/mermaid v0.1.4 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.19.2 // indirect
+	github.com/hugomods/search-index v0.1.2 // indirect
 	github.com/hugomods/seo/modules/alternatives v0.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/seo/modules/favicons v0.2.2 // indirect
