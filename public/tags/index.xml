@@ -9,17 +9,66 @@
     <lastBuildDate>Sat, 08 Mar 2025 18:44:52 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag1</title>
-      <link>//localhost:1313/tags/tag1/</link>
+      <title>Hirensboot</title>
+      <link>//localhost:1313/tags/hirensboot/</link>
       <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/tag1/</guid>
+      <guid>//localhost:1313/tags/hirensboot/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag2</title>
-      <link>//localhost:1313/tags/tag2/</link>
+      <title>Instalation</title>
+      <link>//localhost:1313/tags/instalation/</link>
       <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/tag2/</guid>
+      <guid>//localhost:1313/tags/instalation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Live</title>
+      <link>//localhost:1313/tags/live/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/live/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operating</title>
+      <link>//localhost:1313/tags/operating/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/operating/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System</title>
+      <link>//localhost:1313/tags/system/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>//localhost:1313/tags/windows/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows10</title>
+      <link>//localhost:1313/tags/windows10/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/windows10/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows11</title>
+      <link>//localhost:1313/tags/windows11/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/windows11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Winpe</title>
+      <link>//localhost:1313/tags/winpe/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/tags/winpe/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,6 +1,6 @@
 ---
-title: {{ replace .TranslationBaseName "-" " " | title }}
-date: {{ .Date }}
+title: About Me
+date: 2025-03-08T20:40:31Z
 draft: false
 ---
 
