@@ -19,7 +19,7 @@
 " />
 
 
-<meta name="keywords" content="Tag1,Tag2">
+<meta name="keywords" content="Windows,Instalation,Operating,System,Windows11,Windows10,Hirensboot,Winpe,Live">
 
 
 
@@ -34,8 +34,12 @@
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-03-08T18:44:52+00:00">
     <meta property="article:modified_time" content="2025-03-08T18:44:52+00:00">
-    <meta property="article:tag" content="Tag1">
-    <meta property="article:tag" content="Tag2">
+    <meta property="article:tag" content="Windows">
+    <meta property="article:tag" content="Instalation">
+    <meta property="article:tag" content="Operating">
+    <meta property="article:tag" content="System">
+    <meta property="article:tag" content="Windows11">
+    <meta property="article:tag" content="Windows10">
 
 
 
@@ -229,8 +233,8 @@
   <meta itemprop="description" content="You’ve probably installed Windows the wrong way your entire life. Let me show you the right way to do it. This method is faster and works the same as the usual method.">
   <meta itemprop="datePublished" content="2025-03-08T18:44:52+00:00">
   <meta itemprop="dateModified" content="2025-03-08T18:44:52+00:00">
-  <meta itemprop="wordCount" content="176">
-  <meta itemprop="keywords" content="Tag1,Tag2">
+  <meta itemprop="wordCount" content="492">
+  <meta itemprop="keywords" content="Windows,Instalation,Operating,System,Windows11,Windows10,Hirensboot,Winpe,Live">
 
       <header>
         <h1 itemprop="headline">How to properly install Windows</h1>
@@ -239,7 +243,7 @@
             Saturday, Mar 8, 2025
           
 
-          | <span>1 minute read</span>
+          | <span>3 minute read</span>
 
           
           | <span>Updated at
@@ -311,12 +315,32 @@
         
 
         <p>You&rsquo;ve probably installed Windows the wrong way your entire life. Let me show you the right way to do it. This method is faster and works the same as the usual method.</p>
+<p>All the process for this article was made in a virtual machine to make it easier to take screenshots but i tested and it doesn&rsquo;t work in the virtual machine without the proper drivers declared in WinNTSetup.</p>
 <p><img src="/hirensboot_000.webp" alt="Hiren&rsquo;s Boot"></p>
 <p>Before we begin with this i&rsquo;ll assume you already know how to make a multibootable USB using ventoy and you&rsquo;ve already have the Windows 10/11 iso ready. To begin with this method go to the <a href="https://www.hirensbootcd.org/" target="_blank">Hiren&rsquo;s Boot Website</a>
 , go to the downloads page and download the HBCD_PE_x64.iso and put it in your multiboot usb drive (if you use an autounattend.xml file copy it too).</p>
 <p><img src="/hirens_boot_partition_tools_000.webp" alt="Partition Tools"></p>
 <p>Boot into Hiren&rsquo;s Boot and the first thing you wanna do is partition your ssd if you haven&rsquo;t yet. In this case i&rsquo;m in a virtual machine so i don&rsquo;t have a main nor a boot partition so as you can see i made them with Aomei Partition Assistent (you don&rsquo;t need a boot partition as big as mine, 500MB is more than enough) Make sure your main partition is an NTFS partition and your boot partition is FAT32.</p>
 <p><img src="/hirens_boot_partition_tools_aomei_partition_types_000.webp" alt="Partition Types"></p>
+<p>Now after your partitioned your SSD let&rsquo;s procede with the installation (you can close the partition tool you used). Open WinNTSetup.
+<img src="/hirens_boot_system_tools.png" alt="Where&rsquo;s WinNTSetup Located">
+<img src="/hirens_boot_system_tools_winntsetup_000.webp" alt="WinNTSetup"></p>
+<p>Now select your Windows iso/wim/esd file as i did here
+<img src="/hirens_boot_system_tools_winntsetup_001.webp" alt="Select Wim"></p>
+<p>Now it&rsquo;s time to select your boot partition (make sure you select the right one, click on the arrow, not on the browse button) also if you need to format that partition you can click on the &lsquo;F&rsquo; next to it.
+<img src="/hirens_boot_system_tools_winntsetup_002.webp" alt="Select Boot Partition"></p>
+<p>Now select your main partition(make sure you select the right one, click on the arrow, not on the browse button) also if you need to format that partition you can click on the &lsquo;F&rsquo; next to it.
+<img src="/hirens_boot_system_tools_winntsetup_003.webp" alt="Select Main Partition"></p>
+<p>Now select the Windows edition you want to install, if your pc have a key in the UEFI firmware for a specific edition, select that edition (Ignore the DEV word)
+<img src="/hirens_boot_system_tools_winntsetup_004.webp" alt="Select Windows Edition"></p>
+<p>Now if you want an autounattended.xml file and or a driver folder to add add them here
+<img src="/hirens_boot_system_tools_winntsetup_005.webp" alt="Add Drivers and Unattended xml"></p>
+<p>Click on the &lsquo;Setup&rsquo; button and check if all the things are like this then confirm
+<img src="/hirens_boot_system_tools_winntsetup_006.webp" alt="Click Setup and check options">
+<img src="/hirens_boot_system_tools_winntsetup_007.webp" alt="Installing"></p>
+<p>When it asks you to reboot, reboot and you should be in the oobe or directly on your desktop depending on your autounattended.xml if you used one
+<img src="/hirens_boot_system_tools_winntsetup_008.webp" alt="Reboot"></p>
+<p>This method was way faster in my main machine, i have an nvme ssd and this method installed Windows in about 2 minutes compared to the 10 to 15 minutes of a regular instalation, i use an autounattended file for both methods anyway when i install Windows but this method is the fastest one. If you don&rsquo;t like Hiren&rsquo;s Boot, you can use DLC Boot, or Serguei Strelec or any other winpe graphical environment that has partition tools and WinNTSetup.</p>
 
         
       </section>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating on </title>
+    <link>//localhost:1313/tags/operating/</link>
+    <description>Recent content in Operating on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Mar 2025 18:44:52 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/operating/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to properly install Windows</title>
+      <link>//localhost:1313/posts/how_to_properly_install_windows/</link>
+      <pubDate>Sat, 08 Mar 2025 18:44:52 +0000</pubDate>
+      <guid>//localhost:1313/posts/how_to_properly_install_windows/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ve probably installed Windows the wrong way your entire life. Let me show you the right way to do it. This method is faster and works the same as the usual method.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
